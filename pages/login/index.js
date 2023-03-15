@@ -32,7 +32,7 @@ const index = () => {
   Login();
 
   return (
-    <>
+    <section className="animeLeft">
       <Head>
         <title>Dogs | Entre ou Cadastre-se</title>
         <meta content="Dogs - Rede social para cachorros" />
@@ -50,7 +50,7 @@ const index = () => {
         {error && <p>{error}</p>}
       </form>
       <Link href="login/criar">Cadastro</Link>
-    </>
+    </section>
   );
 };
 
